@@ -1,0 +1,26 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Install mpv
+        run: sudo apt-get update && sudo apt-get install -y mpv
+      - name: Build
+        run: go build ./...
+      - name: Vet
+        # MPRIS requires a method named Seek, which vet mistakes for io.Seeker
+        run: go vet $(go list ./... | grep -v /internal/mpris)
+      - name: Test
+        env:
+          YTAMP_FUZZ_SEEDS: "15"
+        run: go test -race -count=1 ./...
