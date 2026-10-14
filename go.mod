@@ -1,4 +1,4 @@
-module github.com/sarvarbek-566/ytamp
+module github.com/voidsecurity404/ytamp
 
 go 1.26.0
 

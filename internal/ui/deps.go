@@ -7,12 +7,12 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/sarvarbek-566/ytamp/internal/lyrics"
-	"github.com/sarvarbek-566/ytamp/internal/mpris"
-	"github.com/sarvarbek-566/ytamp/internal/player"
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/youtube"
-	"github.com/sarvarbek-566/ytamp/internal/ytdl"
+	"github.com/voidsecurity404/ytamp/internal/lyrics"
+	"github.com/voidsecurity404/ytamp/internal/mpris"
+	"github.com/voidsecurity404/ytamp/internal/player"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/youtube"
+	"github.com/voidsecurity404/ytamp/internal/ytdl"
 )
 
 // mediaPlayer is what the UI needs from the audio engine (mpv in production,

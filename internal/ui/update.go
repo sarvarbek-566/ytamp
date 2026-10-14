@@ -11,13 +11,13 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/sarvarbek-566/ytamp/internal/auth"
-	"github.com/sarvarbek-566/ytamp/internal/lyrics"
-	"github.com/sarvarbek-566/ytamp/internal/player"
-	"github.com/sarvarbek-566/ytamp/internal/store"
-	"github.com/sarvarbek-566/ytamp/internal/theme"
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/ytdl"
+	"github.com/voidsecurity404/ytamp/internal/auth"
+	"github.com/voidsecurity404/ytamp/internal/lyrics"
+	"github.com/voidsecurity404/ytamp/internal/player"
+	"github.com/voidsecurity404/ytamp/internal/store"
+	"github.com/voidsecurity404/ytamp/internal/theme"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/ytdl"
 )
 
 var sleepSteps = []time.Duration{0, 15 * time.Minute, 30 * time.Minute, 60 * time.Minute, 90 * time.Minute}

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/sarvarbek-566/ytamp/internal/config"
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/youtube"
+	"github.com/voidsecurity404/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/youtube"
 )
 
 const historyMax = 300

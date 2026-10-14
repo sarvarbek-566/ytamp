@@ -11,12 +11,12 @@ import (
 	"syscall"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/sarvarbek-566/ytamp/internal/auth"
-	"github.com/sarvarbek-566/ytamp/internal/config"
-	"github.com/sarvarbek-566/ytamp/internal/store"
-	"github.com/sarvarbek-566/ytamp/internal/theme"
-	"github.com/sarvarbek-566/ytamp/internal/ui"
-	"github.com/sarvarbek-566/ytamp/internal/ytdl"
+	"github.com/voidsecurity404/ytamp/internal/auth"
+	"github.com/voidsecurity404/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/store"
+	"github.com/voidsecurity404/ytamp/internal/theme"
+	"github.com/voidsecurity404/ytamp/internal/ui"
+	"github.com/voidsecurity404/ytamp/internal/ytdl"
 )
 
 var version = "0.1.0"

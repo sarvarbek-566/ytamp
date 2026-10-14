@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sarvarbek-566/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/track"
 )
 
 // DefaultClients asks yt-dlp to also try the embedded web player, which keeps

@@ -8,11 +8,11 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/sarvarbek-566/ytamp/internal/auth"
-	"github.com/sarvarbek-566/ytamp/internal/config"
-	"github.com/sarvarbek-566/ytamp/internal/store"
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/ytdl"
+	"github.com/voidsecurity404/ytamp/internal/auth"
+	"github.com/voidsecurity404/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/store"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/ytdl"
 )
 
 // Login flow:

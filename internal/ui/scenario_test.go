@@ -7,12 +7,12 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/sarvarbek-566/ytamp/internal/config"
-	"github.com/sarvarbek-566/ytamp/internal/player"
-	"github.com/sarvarbek-566/ytamp/internal/store"
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/youtube"
-	"github.com/sarvarbek-566/ytamp/internal/ytdl"
+	"github.com/voidsecurity404/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/player"
+	"github.com/voidsecurity404/ytamp/internal/store"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/youtube"
+	"github.com/voidsecurity404/ytamp/internal/ytdl"
 	"golang.org/x/oauth2"
 )
 

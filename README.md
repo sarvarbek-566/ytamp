@@ -40,13 +40,13 @@ Talablar: `mpv`, `yt-dlp`, Go 1.26+. Ixtiyoriy: `pw-record` (vizualizator), `wl-
 
 ```sh
 sudo pacman -S mpv yt-dlp     # Arch / Omarchy
-go install github.com/sarvarbek-566/ytamp/cmd/ytamp@latest
+go install github.com/voidsecurity404/ytamp/cmd/ytamp@latest
 ```
 
 yoki manbadan:
 
 ```sh
-git clone https://github.com/sarvarbek-566/ytamp && cd ytamp
+git clone https://github.com/voidsecurity404/ytamp && cd ytamp
 make install                  # → ~/.local/bin/ytamp
 ```
 

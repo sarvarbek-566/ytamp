@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/sarvarbek-566/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/config"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 )

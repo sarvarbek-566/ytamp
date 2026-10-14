@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sarvarbek-566/ytamp/internal/track"
-	"github.com/sarvarbek-566/ytamp/internal/youtube"
+	"github.com/voidsecurity404/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/youtube"
 )
 
 // maxLibrary caps how many tracks are read from one list.

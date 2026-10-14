@@ -7,7 +7,7 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/x/ansi"
-	"github.com/sarvarbek-566/ytamp/internal/theme"
+	"github.com/voidsecurity404/ytamp/internal/theme"
 )
 
 // styles is the precomputed style set for the active theme.

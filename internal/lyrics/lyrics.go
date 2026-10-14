@@ -101,7 +101,7 @@ func (e serverErr) Error() string { return "lrclib: " + e.status }
 
 func getOnce(ctx context.Context, u string, v any) error {
 	req, _ := http.NewRequestWithContext(ctx, http.MethodGet, u, nil)
-	req.Header.Set("User-Agent", "ytamp (https://github.com/sarvarbek-566/ytamp)")
+	req.Header.Set("User-Agent", "ytamp (https://github.com/voidsecurity404/ytamp)")
 	res, err := client.Do(req)
 	if err != nil {
 		return err

@@ -6,7 +6,7 @@ import (
 	"github.com/godbus/dbus/v5"
 	"github.com/godbus/dbus/v5/introspect"
 	"github.com/godbus/dbus/v5/prop"
-	"github.com/sarvarbek-566/ytamp/internal/track"
+	"github.com/voidsecurity404/ytamp/internal/track"
 )
 
 const (

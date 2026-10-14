@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/sarvarbek-566/ytamp/internal/config"
-	"github.com/sarvarbek-566/ytamp/internal/player"
-	"github.com/sarvarbek-566/ytamp/internal/youtube"
+	"github.com/voidsecurity404/ytamp/internal/config"
+	"github.com/voidsecurity404/ytamp/internal/player"
+	"github.com/voidsecurity404/ytamp/internal/youtube"
 )
 
 var fuzzKeys = []string{
